@@ -1,6 +1,14 @@
 
 # Collection of private examples
 
+## Compiler frontend in Bash (Cmpl_sh)
+
+This is a compiler frontend for a LISP-style language. Provided is
+the frontend which is WIP. Contains several examples.
+I had the idea to implement a Compiler in bash, which worked out
+rather well. Lexer is already working.
+
+
 ## Fahrkartenautomat
 
 A simple application showing off a basic working principle of a ticket machine.
