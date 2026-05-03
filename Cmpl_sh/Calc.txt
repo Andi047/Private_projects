@@ -1,0 +1,8 @@
+;; Beispiel, das tatsächlich etwas
+;; berechnet und ausgibt
+
+(def x 5)
+(def y 3)
+
+(defn add (a b) (a + b))
+(add (x y))

@@ -1,0 +1,33 @@
+;; Beispiel-Quellcode
+
+;; Definition einer Liste
+(list (1 2 3))
+
+;; Negative Zahl
+(def x -32)
+
+;; arithm. Operation
+(+ 1 4)
+(- 3 2)
+
+;; Ausgabefunktion
+(print "hello")
+
+;; String-Casting
+(str 42)
+(str "bahn" "schranke")
+
+;; Fallunterschiedung
+(if (< 1 4)
+  (do (print "ok")
+      (print "stimmt"))
+  (print "falsch"))
+
+;; Variablendefinition
+(def x 57)
+x
+(+ x 2)
+
+;; Funktionsdefinition
+(defn mid (x y) (x + y / 2))
+(mid (4 6))
